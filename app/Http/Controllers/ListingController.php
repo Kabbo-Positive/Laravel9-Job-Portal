@@ -23,6 +23,15 @@ class ListingController extends Controller
         ]);
     }
 
+     //Show Company listing
+    public function company() {
+        return view('listings.company');
+    }
+     //Show Employee listing
+     public function employee() {
+        return view('listings.employee');
+    }
+
     // Show Create Form
     public function create() {
         return view('listings.create');

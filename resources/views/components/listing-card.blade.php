@@ -16,3 +16,8 @@
     </div>
   </div>
 </x-card>
+
+
+{{-- <div class="img-box" style="padding: 20px;">
+  <img src="product/{{$product->image}}" alt="">
+</div> --}}

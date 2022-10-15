@@ -50,6 +50,12 @@ Route::get('/listings/manage', [ListingController::class, 'manage'])->middleware
 // Single Listing
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
 
+// Company Listing
+Route::get('/company', [ListingController::class, 'company']);
+
+// Employee Listing
+Route::get('/employee', [ListingController::class, 'employee']);
+
 // Show Register/Create Form
 Route::get('/register', [UserController::class, 'create'])->middleware('guest');
 
